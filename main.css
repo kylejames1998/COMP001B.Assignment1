@@ -1,53 +1,65 @@
+/* styles the nav menu */
 #navmenu {
     list-style-type: none;
     padding: 1em 0;
     text-align: center;
     font-family: sans-serif;
 }
+
+/* displays the nav menu horizontally */
 #navmenu ul li {
     display: inline;
     padding: 0 1.5em;
     color: black;
 }
 
+/* removes the underlines from the nav items */
 #navmenu ul li a {
     font-weight: bold;
     text-decoration: none;
 }
 
+/* adds color to header background */
 header {
     background-color: blanchedalmond;
     width: 100%;
 }
 
+/* Removes margin from the body */
 body {
     margin: 0;
 }
 
+/* styles the p elements */
 p {
     padding: .5em;
     font-size: 110%;
     font-family: sans-serif;
 }
 
+/* Styles the question paragraph on index page */
 .ques {
     font-weight: bold;
 }
 
+/* adds underline to the h1 headers */
 h1 {
     padding: .25em;
     text-decoration: underline;
 }
 
+/* conditional CSS for hovering links */
 a:hover {
     font-style: italic;
     color: black;
 }
 
+/* styles the copyright P elements */
 #copyright {
     font-size: 80%;
 }
 
+/* styles the img on the about me page */
 img {
     border: 3px solid black;
     margin: .5em;
