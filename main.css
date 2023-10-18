@@ -1,0 +1,34 @@
+#navmenu {
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+#navmenu ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
+#navmenu ul li a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    padding: .5em;
+    font-size: 110%;
+    font-family: sans-serif;
+}
+
+.ques {
+    font-weight: bold;
+}
