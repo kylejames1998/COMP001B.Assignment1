@@ -36,9 +36,14 @@ p {
 
 h1 {
     padding: .25em;
+    text-decoration: underline;
 }
 
 a:hover {
     font-style: italic;
     color: black;
+}
+
+#copyright {
+    font-size: 80%;
 }
